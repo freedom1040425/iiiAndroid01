@@ -7,22 +7,24 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
+
     <TextView
         android:id="@+id/lottery"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello. World1"
-        android:textSize="24sp"
+        android:baselineAligned="false"
         android:gravity="center"
-
+        android:text="Hello. World"
+        android:textSize="24sp"
         />
+
     <Button
         android:id="@+id/click"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:text="Click"
         android:textAllCaps="false"
-        android:layout_gravity="center"
         />
 
 </LinearLayout>
